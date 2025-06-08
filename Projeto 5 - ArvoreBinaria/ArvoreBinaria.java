@@ -86,7 +86,7 @@ public class ArvoreBinaria {
 
     // ---------- PERCURSOS (para exibir a árvore) ----------
 
-    // Em ordem (esquerda, raiz, direita) - imprime os elementos ordenados
+    //Em ordem (esquerda, raiz, direita)
     public void emOrdem() {
         System.out.print("Em ordem: ");
         emOrdem(raiz);
@@ -101,7 +101,7 @@ public class ArvoreBinaria {
         }
     }
 
-    // Pré-ordem (raiz, esquerda, direita)
+    //Pré-ordem (raiz, esquerda, direita)
     public void preOrdem() {
         System.out.print("Pré-ordem: ");
         preOrdem(raiz);
@@ -116,7 +116,7 @@ public class ArvoreBinaria {
         }
     }
 
-    // Pós-ordem (esquerda, direita, raiz)
+    //Pós-ordem (esquerda, direita, raiz)
     public void posOrdem() {
         System.out.print("Pós-ordem: ");
         posOrdem(raiz);
