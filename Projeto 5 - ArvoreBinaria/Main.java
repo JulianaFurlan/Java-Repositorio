@@ -30,7 +30,7 @@ public class Main {
                 case 2:
                     System.out.print("Digite o valor a ser removido: ");
                     int valorRemover = scanner.nextInt();
-                    arvore.removerRaiz(valorRemover); // vamos criar esse método abaixo
+                    arvore.removerRaiz(valorRemover); 
                     break;
 
                 case 3:
